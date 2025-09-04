@@ -4,6 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Super Space Ride</title>
+
 <style>
   html, body { margin:0; height:100%; background:#000; overflow:hidden; }
   canvas { display:block; margin:0 auto; background:#000; touch-action:none; }
@@ -96,7 +97,10 @@
 
   // ---------- Assets ----------
   const shipImg = new Image();
-  shipImg.src = "https://storage.googleapis.com/prod-cardapio-web/uploads/company/logo/14089/c24ef54dlogo_da_black_friday__4_.png";
+  shipImg.src = "./png-transparent.png";
+
+// ----const shipImg = new Image();
+///shipImg.src = "https://storage.googleapis.com/prod-cardapio-web/uploads/company/logo/14089/c24ef54dlogo_da_black_friday__4_.png";
 
   // ---------- Estado do jogo ----------
   let running = false, last = 0, t = 0;
